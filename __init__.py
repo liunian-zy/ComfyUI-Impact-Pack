@@ -62,7 +62,7 @@ threading.Thread(target=impact.wildcards.wildcard_load).start()
 
 
 NODE_CLASS_MAPPINGS = {
-    "SAMLoader": SAMLoader, # noqa: F405
+    # "SAMLoader": SAMLoader, # noqa: F405
     "CLIPSegDetectorProvider": CLIPSegDetectorProvider, # noqa: F405
     "ONNXDetectorProvider": ONNXDetectorProvider, # noqa: F405
 
